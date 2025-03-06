@@ -1,0 +1,111 @@
+#header{
+    display: grid;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    height:90px;
+    background-color: #00719e;
+    text-align: center;
+    grid-template-columns: 13% 13% 13% 22% 13% 13% 13%;
+    min-width: 1570px;
+    margin: 0px;
+
+}
+
+#searchBox{
+    margin-top: 90px;
+    height: 50px;
+    background-color: aliceblue;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+#cardsContainer{
+    margin-left: 60px;
+    margin-right: 60px;
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+   }
+    
+.cards{height: 90%; width:90%; display: grid;grid-template-columns: 50% 50%; margin-top: 40px;}
+
+.cardImg{width:100% ;height: 100%; border-bottom-left-radius: 30px; border-top-left-radius: 30px;}
+
+
+.cardDesc{border-top-right-radius: 30px; border-bottom-right-radius: 30px; text-align: center; width:100% ;height: 100%; background-color: rgb(179, 210, 238);}
+
+.headerButton{width:200px; height:50px; justify-self: center; align-self: center; font-size: large;}
+
+#searchInput{ width:1804px; height:45px; margin: 0%; border: none;}
+
+
+
+#title{font-size: xx-large;}
+
+#description{margin-top: 50px; font-size:larger; margin-right: 10px; margin-left: 10px;}
+
+
+.tryButt{margin-top: 40px;
+  background-image: linear-gradient(-180deg, #37AEE2 0%, #1E96C8 100%);
+  justify-self: center;
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-size: 16px;
+  justify-content: center;
+  padding: 1rem 1.75rem;
+  text-decoration: none;
+  width: 100px;
+  border: 0;
+  cursor: pointer;
+
+}
+
+.tryButt:hover {
+  background-image: linear-gradient(-180deg, #1D95C9 0%, #17759C 100%);
+}
+
+.headerButton{
+    border: none;
+    background-color: #00719e;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #050347
+}
+.headerButton:hover{
+    text-decoration:underline;
+}
+
+#logoCont{
+    font-size: 50px;
+}
+
+#searchButt{height:50px; border-radius: 50%;
+  background-image: linear-gradient( #00719e, #42A1EC);
+  border: 1px solid #0077CC;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "SF Pro Text","SF Pro Icons","AOS Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -.022em;
+  line-height: 1.47059;
+  min-width: 30px;
+  padding: 4px 12px;
+  text-align: center;
+  margin-top: 1px
+;}
+
+
+#searchButt:hover {
+  background-image: linear-gradient(#51A9EE, #147BCD);
+  border-color: #1482D0;
+  text-decoration: none;
+}
