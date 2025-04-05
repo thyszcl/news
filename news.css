@@ -19,6 +19,7 @@
     background-color: aliceblue;
     margin-left: 0%;
     margin-right: 0%;
+    min-width: 1889px;
 }
 
 #cardsContainer{
@@ -48,7 +49,7 @@
 #description{margin-top: 50px; font-size:larger; margin-right: 10px; margin-left: 10px;}
 
 
-.tryButt{margin-top: 40px;
+.tryButt{margin-bottom: 5px;
   background-image: linear-gradient(-180deg, #37AEE2 0%, #1E96C8 100%);
   justify-self: center;
   border-radius: .5rem;
@@ -100,12 +101,51 @@
   min-width: 30px;
   padding: 4px 12px;
   text-align: center;
-  margin-top: 1px
-;}
+  margin-top: 1px;
+
+}
 
 
 #searchButt:hover {
   background-image: linear-gradient(#51A9EE, #147BCD);
   border-color: #1482D0;
   text-decoration: none;
+}
+
+@media screen and (max-width:1265px){
+  #header{
+    display: grid;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    height:90px;
+    background-color: #00719e;
+    text-align: center;
+    grid-template-columns: 13% 13% 13% 22% 13% 13% 13%;
+    min-width: 1100px;
+    margin: 0px;
+  }
+
+  
+.headerButton{width:100px; 
+  height:50px; 
+  justify-self: center; 
+  align-self: center; 
+  font-size: small;
+}
+
+#searchBox{
+  margin-top: 90px;
+  height: 50px;
+  background-color: aliceblue;
+  margin-left: 0%;
+  margin-right: 0%;
+  min-width: 1265px;
+}
+#searchInput{ width:1050px; height:45px; margin: 0%; border: none;}
+
+.cardDesc{border-top-right-radius: 30px; border-bottom-right-radius: 30px; text-align: center; width:100% ;height: 100%; background-color: rgb(179, 210, 238);}
+
+
 }
